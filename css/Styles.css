@@ -1,0 +1,84 @@
+body, html{
+background-color: aliceblue;
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+h1{
+text-align: center;
+margin: 0;
+padding: 0;
+}
+
+h1.titulo{
+text-align: center;
+margin: 0;
+padding: 20px;
+background-color: rgb(45,61,199);
+color: white;
+}
+
+nav ul li{
+display: inline;
+margin: 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #007bff;
+}
+
+.navbar-custom.dropdown-menu{
+    background-color: black;
+}
+
+.navbar-custom.dropdown-item:hover{
+    background-color: rgb(167,159,229);
+
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link{
+color: white;
+transition: color 0.35s ease;
+}
+
+.nav-custom .drop-item{
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .dropdown-item:hover{
+    color: #007bff;
+}
+
+.navbar-custom .nav-link{
+    padding: 0.5em 1em;
+}
+
+form{
+    max-width: block;
+    margin-bottom: 5px;
+}
+
+form input, form select{
+width: 100%;
+padding: 8px;
+margin-bottom: 10px;
+}
+
+form button{
+
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #0056b3;
+}
