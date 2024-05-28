@@ -1,76 +1,93 @@
-body, html{
-background-color: aliceblue;
-font-family: Arial, sans-serif;
-margin: 0;
-padding: 0;
+body, html {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   
 }
-
-h1{
-text-align: center;
-margin: 0;
-padding: 0;
+h1 {
+    text-align: center;
+    margin: 0; /* Ajustar a margem para remover o espaço extra */
+    padding: 20px; /* Ajuste conforme necessário */
+   
 }
-
-h1.titulo{
-text-align: center;
-margin: 0;
-padding: 20px;
-background-color: rgb(45,61,199);
-color: white;
+ 
+h1.titulo {
+    text-align: center;
+    margin: 0; /* Ajustar a margem para remover o espaço extra */
+    padding: 20px; /* Ajuste conforme necessário */
+    background-color: #2737c6;
+    color:white;
 }
-
-nav ul li{
-display: inline;
-margin: 15px;
+ 
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
 }
-
-nav ul li a{
+ 
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+   
+}
+ 
+nav ul li a {
     text-decoration: none;
     color: #007bff;
+   
+   
 }
-
-.navbar-custom.dropdown-menu{
+ 
+.navbar-custom a {
+    color: white;
+    font-size: 1.2em;
+}
+.navbar-custom .dropdown-menu {
     background-color: black;
+   
 }
-
-.navbar-custom.dropdown-item:hover{
-    background-color: rgb(167,159,229);
-
+.navbar-custom .dropdown-item {
+    color: white;
+    font-size: 1.2em;
 }
-
+.navbar-custom .dropdown-item:hover {
+    background-color: rgb(167, 159, 229);
+}
 .navbar-custom .navbar-brand,
-.navbar-custom .nav-link{
-color: white;
-transition: color 0.35s ease;
-}
-
-.nav-custom .drop-item{
+.navbar-custom .nav-link {
     color: white;
     transition: color 0.3s ease;
 }
-
-.navbar-custom .nav-link:hover,
-.navbar-custom .dropdown-item:hover{
-    color: #007bff;
+.navbar-custom .dropdown-item {
+    color: white;
+    transition: color 0.3s ease;
 }
-
-.navbar-custom .nav-link{
+.navbar-custom .nav-link:hover,
+.navbar-custom .dropdown-item:hover {
+    color:#007bff;
+}
+.navbar-custom .nav-link {
     padding: 0.5em 1em;
 }
-
-form{
-    max-width: block;
+     
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+ 
+form label {
+    display: block;
     margin-bottom: 5px;
 }
-
-form input, form select{
-width: 100%;
-padding: 8px;
-margin-bottom: 10px;
+ 
+form input, form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
 }
-
-form button{
-
+ 
+form button {
     width: 100%;
     padding: 10px;
     background-color: #007bff;
@@ -78,7 +95,7 @@ form button{
     border: none;
     cursor: pointer;
 }
-
-form button:hover{
+ 
+form button:hover {
     background-color: #0056b3;
 }

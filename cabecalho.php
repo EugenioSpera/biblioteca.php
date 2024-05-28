@@ -1,5 +1,6 @@
+
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="utf-8">
@@ -18,7 +19,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-custom">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">HOME</a>
+            <a class="navbar-brand" href="index.php">HOME</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -31,8 +32,8 @@
                             Cadastro
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Cadastrar Livro</a></li>
-                            <li><a class="dropdown-item" href="#">Cadastrar Usuario</a></li>
+                            <li><a class="dropdown-item" href="cadastrar_livros.php">Cadastrar Livro</a></li>
+                            <li><a class="dropdown-item" href="cadastrar_usuarios.php">Cadastrar Usuario</a></li>
                         </ul>
 
                     <li class="nav-item dropdown">
