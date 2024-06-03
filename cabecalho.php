@@ -52,8 +52,8 @@
                             Relatorio
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Listar Livros</a></li>
-                            <li><a class="dropdown-item" href="#">Listar Usuarios</a></li>
+                            <li><a class="dropdown-item" href="listar_livros.php">Listar Livros</a></li>
+                            <li><a class="dropdown-item" href="listar_usuarios.php">Listar Usuarios</a></li>
                             <li><a class="dropdown-item" href="#">Relatorios de devoluções</a></li>
                         </ul>
                     </li>
